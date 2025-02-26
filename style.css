@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    margin: 10px;
+}
+.display{
+    width: 99%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    background-color: rgb(70, 70, 70);
+    border: none;
+    border-radius: 5px;
+}
+.kalkulator{
+    margin: auto;
+    background-color: rgb(54, 53, 53);
+    width: 600px;
+    height: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+.tombol{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+button{
+    height: 50px;
+    background-color: rgb(78, 78, 78);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.khusus{
+    color: aqua;
+}
+button:active{
+    transform: scale(1.1);
+    transition: 100ms;
+}
